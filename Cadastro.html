@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <h1 style="font-family:verdana; text-align: center;">Cadastro de cliente</h1>
+    <p style="color:red; text-align: center;">Todos os campos são de preechimento obrigatório</p>
+
+    <form method="get">
+        <form action="action_page.php">
+            <fieldset>
+            <legend>Dados Pessoais</legend>
+            Nome:<br>
+            <input type="text" name="firtname" placeholder="Nome completo"><br>
+            Data de nascimento:<br>
+            <input type="date"><br>
+            Sexo:<br>
+            <label><input type="radio" name="radio" value="Feminino" /> Feminino</label>
+                <label><input type="radio" name="radio" value="Masculino" /> Masculino</label>
+                </fieldset>
+                
+                <fieldset>
+                <legend>Informações de contato</legend>
+                Email:<br>
+                <input type="email" id="email" name="email" placeholder="Seu email"><br>
+                Telefone celular:<br>
+                <input type="tel" placeholder="Apenas números"><br>
+                Rede Social:<br>
+                <input type="text">
+                </fieldset>
+            
+                <fieldset>
+                <legend>Localização</legend>
+                Endereço:<br>
+                <input type="text" placeholder="Avenida/Rua"><br>
+                Número:<br>
+                <input type="number" placeholder="Valor entre 1 e 9999"><br>
+                Cidade:<br>
+                <input type="text"><br>
+                Estado:<br>
+                <input list="browsers" name="browser">
+                <datalist id="browsers">
+                <option value="Acre">
+                <option value="Amazona">
+                <option value="Amapá">
+                <option value="Alagoas">
+                <option value="Bhaia">
+                <option value="Ceará ">
+                <option value="Distrito Federal ">
+                <option value="Goiás ">
+                <option value="Espirito Santo">
+                <option value="Maranhão ">
+                <option value="Mato Grosso ">
+                <option value="Mato Grosso do Sul">
+                <option value="Minas Gerais">
+                <option value="Pará">
+                <option value="Paraiba">
+                <option value="Paraná">
+                <option value="Pernambuco ">
+                <option value="Piauí ">
+                <option value="São Paulo">
+                <option value="Rio de Janeiro">
+                <option value="Rio Grande do Norte ">
+                <option value="Rio Grande do Sul ">
+                <option value="Roraima ">
+                <option value="Rondônia ">
+                <option value="Sergipe ">
+                <option value="Tocantins ">
+                       
+                    </option>  
+                </fieldset>  
+                </datalist>
+        
+      </form>
+</body>
+</html>
